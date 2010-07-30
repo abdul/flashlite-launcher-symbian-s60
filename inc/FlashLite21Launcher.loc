@@ -1,0 +1,28 @@
+/*
+============================================================================
+ Name        : FlashLite21Launcher.loc
+ Author      : Abdul Qabiz
+ Copyright   : © 2007-2008 Abdul Qabiz (http://www.abdulqabiz.com)
+ Description : This is a localisation file for FlashLite21Launcher
+               A .loc file is the one and only place where the logical
+			   strings to be localised are defined. 
+============================================================================
+*/
+
+// LOCALISATION STRINGS
+
+#define qtn_appl_test "Test"
+
+// menu exit
+#define qtn_appl_exit "Exit"
+
+
+// example caption strings for app
+#define qtn_app_caption_string "FlashLite21Launcher"
+
+#define qtn_app_short_caption_string "FlashLite21Launcher"
+
+// Localized string for r_message_text
+#define R_MESSAGE_TEXT_STRING "FlashLite21Launcher"
+
+

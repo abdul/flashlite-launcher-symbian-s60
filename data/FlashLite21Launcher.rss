@@ -1,0 +1,99 @@
+/*
+============================================================================
+ Name        : FlashLite21Launcher.rss
+ Author      : Abdul Qabiz
+ Copyright   : © 2007-2008 Abdul Qabiz (http://www.abdulqabiz.com)
+ Description : This file contains all the resources for the FlashLite21Launcher.
+============================================================================
+*/
+
+//  RESOURCE IDENTIFIER
+NAME    FLAS // 4 letter ID
+
+//  INCLUDES
+
+#include <eikon.rh>
+#include "FlashLite21Launcher.hrh"
+#include "FlashLite21Launcher.loc"
+#include <avkon.rsg>
+#include <avkon.rh>
+#include <avkon.mbg>
+
+
+
+//  RESOURCE DEFINITIONS 
+
+RESOURCE RSS_SIGNATURE { }
+
+RESOURCE TBUF { buf = "FlashLite21Launcher"; }
+
+RESOURCE EIK_APP_INFO
+    {
+    hotkeys = r_FlashLite21Launcher_hotkeys;
+    menubar = r_FlashLite21Launcher_menubar;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_BACK;     
+    }
+
+//----------------------------------------------------
+//   
+//    r_FlashLite21Launcher_hotkeys
+//
+//----------------------------------------------------
+//
+RESOURCE HOTKEYS r_FlashLite21Launcher_hotkeys
+    {
+    control =
+        {
+        HOTKEY { command = EAknCmdExit; key='e'; }
+        };
+    }
+
+//----------------------------------------------------
+//   
+//    r_FlashLite21Launcher_menubar
+//
+//----------------------------------------------------
+//
+RESOURCE MENU_BAR r_FlashLite21Launcher_menubar
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_FlashLite21Launcher_menu; txt = "File"; }
+        };
+    }
+
+//----------------------------------------------------
+//   
+//    r_FlashLite21Launcher_menu
+//
+//----------------------------------------------------
+//
+RESOURCE MENU_PANE r_FlashLite21Launcher_menu
+    {
+    items =
+        {
+        MENU_ITEM { command = EFlashLite21LauncherCmdAppTest; txt = qtn_appl_test; },
+        MENU_ITEM { command = EAknCmdExit; txt = qtn_appl_exit; }
+        };
+    }
+
+//----------------------------------------------------------------------
+//  r_message_text -- Localized string used by the application
+//----------------------------------------------------------------------
+/*
+References to the following line in the .loc file:
+	#define R_MESSAGE_TEXT_STRING "FlashLite21Launcher"
+With S60 you can load the buffer by using StringLoader (more flexible API):
+	#include <StringLoader.h>	// Link against: CommonEngine.lib 
+	HBufC* text = StringLoader::LoadLC(R_MESSAGE_TEXT);
+	// Do something with the string
+	CleanupStack::PopAndDestroy(text);
+Or in the traditional Symbian OS way with CCoeEnv::AllocReadResourceLC():
+	#include <eikenv.h>			// Link against: eikcore.lib
+	HBufC* text = CEikonEnv::Static()->AllocReadResourceLC(R_MESSAGE_TEXT);
+	// Do something with the string
+	CleanupStack::PopAndDestroy(text);
+*/
+RESOURCE TBUF r_message_text {	buf = R_MESSAGE_TEXT_STRING; }
+
+

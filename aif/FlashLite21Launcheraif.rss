@@ -1,0 +1,21 @@
+/*
+============================================================================
+ Name        : FlashLite21Launcheraif.rss
+ Author      : Abdul Qabiz
+ Copyright   : © 2007-2008 Abdul Qabiz (http://www.abdulqabiz.com)
+ Description : RSS for creating the aif file for FlashLite21Launcher.
+============================================================================
+*/
+
+#include <aiftool.rh>
+
+RESOURCE AIF_DATA
+    {
+    app_uid=0x01ABB294;
+    num_icons=2;
+    embeddability=KAppNotEmbeddable;
+    newfile=KAppDoesNotSupportNewFile;
+    launch=KAppLaunchInBackground;
+    }
+
+

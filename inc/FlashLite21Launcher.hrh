@@ -1,0 +1,23 @@
+/*
+============================================================================
+ Name        : FlashLite21Launcher.hrh
+ Author      : Abdul Qabiz
+ Copyright   : © 2007-2008 Abdul Qabiz (http://www.abdulqabiz.com)
+ Description : This file contains declarations for constants of FlashLite21Launcher.
+               The file can be included in C++ or resource file.
+============================================================================
+*/
+
+#ifndef FLASHLITE21LAUNCHER_HRH
+#define FLASHLITE21LAUNCHER_HRH
+
+enum TFlashLite21LauncherCommandIds
+    {
+    EFlashLite21LauncherCmdAppTest = 1
+    };
+
+
+
+
+
+#endif      // FLASHLITE21LAUNCHER_HRH

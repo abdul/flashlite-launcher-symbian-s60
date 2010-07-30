@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>FlashLite21Launcher</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>com.symbian.cdt.core.symbiannature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>FlashLite21Launcher_S60_2_8_Phone_(ARMI)_Release.app</name>
+			<type>1</type>
+			<location>C:/Symbian/8.1a/S60_2nd_FP3/epoc32/release/ARMI/UREL/FlashLite21Launcher.app</location>
+		</link>
+		<link>
+			<name>FlashLite21Launcher_S60_2_8_Emulator_Debug.app</name>
+			<type>1</type>
+			<location>C:/Symbian/8.1a/S60_2nd_FP3/epoc32/release/WINSCW/UDEB/Z/system/apps/FlashLite21Launcher/FlashLite21Launcher.app</location>
+		</link>
+	</linkedResources>
+</projectDescription>

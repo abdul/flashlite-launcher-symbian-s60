@@ -1,0 +1,17 @@
+/*
+============================================================================
+ Name        : FlashLite21Launcher_caption.rss
+ Author      : Abdul Qabiz
+ Copyright   : © 2007-2008 Abdul Qabiz (http://www.abdulqabiz.com)
+ Description : Caption file for FlashLite21Launcher.
+============================================================================
+*/
+
+#include "FlashLite21Launcher.loc"
+#include <apcaptionfile.rh>
+
+RESOURCE CAPTION_DATA
+{
+    caption = qtn_app_caption_string;
+    shortcaption = qtn_app_short_caption_string;
+}

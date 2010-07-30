@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.0.0?>
+
+<ManagedProjectBuildInfo>
+<project id="FlashLite21Launcher.com.symbian.cdt.build.projectType.pdll.549044591" name="Symbian Polymorphic DLL Project" projectType="com.symbian.cdt.build.projectType.pdll">
+<configuration artifactExtension="app" artifactName="FlashLite21Launcher" description="" errorParsers="com.symbian.cdt.build.WinscwErrorParser;org.eclipse.cdt.core.MakeErrorParser;;com.symbian.cdt.build.MakeDefErrorParser;;com.symbian.cdt.build.RCOMPErrorParser;" id="S60_2nd_FP3_com.symbian.cdt.build.projectType.pdll_winscw.udeb_S60_2nd_FP3.1558886212" name="S60 2.8 Emulator Debug" parent="S60_2nd_FP3_com.symbian.cdt.build.projectType.pdll_winscw.udeb_S60_2nd_FP3">
+<toolChain id="com.nokia.sdk.S60_28.build.winscw.toolChain.winscwUdebPdll.105664068" name="WINSCW UDEB Defaults" superClass="com.nokia.sdk.S60_28.build.winscw.toolChain.winscwUdebPdll">
+<option id="com.nokia.cdt.build.toolChain.S60_28.winscw.GlobalOptions.systemIncludePaths.winscwUdebPdll.992357980" name="System Include Paths" superClass="com.nokia.cdt.build.toolChain.S60_28.winscw.GlobalOptions.systemIncludePaths.winscwUdebPdll"/>
+<option id="com.symbian.cdt.sdk.81a.build.winscw.polymorphicDllUdeb.targetType.1134620895" name="TargetType" superClass="com.symbian.cdt.sdk.81a.build.winscw.polymorphicDllUdeb.targetType" value="app" valueType="enumerated"/>
+<option id="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.uid2.udeb.283531428" name="UID2" superClass="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.uid2.udeb" value="0x100039CE" valueType="string"/>
+<option id="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.uid3.udeb.1419136419" name="UID3" superClass="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.uid3.udeb" value="0x01ABB294" valueType="string"/>
+<option id="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.vendorid.udeb.1635122498" name="Vendor Id" superClass="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.vendorid.udeb" value="0x00000000" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.winscw.GlobalOptions.userIncludePaths.248086213" name="User Include Paths" superClass="com.symbian.cdt.build.toolChain.winscw.GlobalOptions.userIncludePaths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\data&quot;"/>
+</option>
+<option id="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.targetPath.udeb.1718719090" superClass="com.symbian.cdt.build.81a.toolChain.winscw.GlobalOptions.targetPath.udeb" value="system\apps\FlashLite21Launcher" valueType="string"/>
+<tool id="com.nokia.sdk.S60_28.build.winscw.compiler.udebPDll.1642483302" name="WINSCW C/C++ Compiler" superClass="com.nokia.sdk.S60_28.build.winscw.compiler.udebPDll"/>
+<tool id="com.symbian.cdt.sdk.81a.build.winscw.linker.udebPDll.1277007162" name="WINSCW C/C++ Linker" superClass="com.symbian.cdt.sdk.81a.build.winscw.linker.udebPDll">
+<option id="com.symbian.cdt.build.81a.buildDefinitions.winscw.linker.libraries.libraries.udebPDll.1475442531" superClass="com.symbian.cdt.build.81a.buildDefinitions.winscw.linker.libraries.libraries.udebPDll" valueType="libs">
+<listOptionValue builtIn="false" value="edll.lib"/>
+<listOptionValue builtIn="false" value="euser.lib"/>
+<listOptionValue builtIn="false" value="apparc.lib"/>
+<listOptionValue builtIn="false" value="cone.lib"/>
+<listOptionValue builtIn="false" value="eikcore.lib"/>
+<listOptionValue builtIn="false" value="avkon.lib"/>
+<listOptionValue builtIn="false" value="eikcoctl.lib"/>
+</option>
+</tool>
+<tool id="com.symbian.cdt.build.buildDefinitions.makedef.winscw.default.574741076" name="Def File Creator for WINSCW" superClass="com.symbian.cdt.build.buildDefinitions.makedef.winscw.default"/>
+<tool id="com.symbian.cdt.build.81a.tool.winscw.aif.udeb.1728992093" name="AIF Compiler" superClass="com.symbian.cdt.build.81a.tool.winscw.aif.udeb">
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath.1672006052" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.81a.tool.winscw.rcomp.udeb.1325911879" name="Resource Compiler" superClass="com.symbian.cdt.build.81a.tool.winscw.rcomp.udeb">
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath.474390026" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.81a.tool.winscw.mbm.udeb.594422373" name="MBM Compiler" superClass="com.symbian.cdt.build.81a.tool.winscw.mbm.udeb">
+<option id="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath.1015579267" superClass="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<macros/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="app" artifactName="FlashLite21Launcher" cleanCommand="del /s/q" description="" id="S60_2nd_FP3_com.symbian.cdt.build.projectType.pdll_thumb.urel_S60_2nd_FP3.502614340" name="S60 2.8 Phone (Thumb) Release" parent="S60_2nd_FP3_com.symbian.cdt.build.projectType.pdll_thumb.urel_S60_2nd_FP3">
+<toolChain id="com.nokia.sdk.S60_28.build.toolChain.gcc98.thumbUrelPdll.423931694" name="GCC98 Polymorphic DLL Defaults" superClass="com.nokia.sdk.S60_28.build.toolChain.gcc98.thumbUrelPdll">
+<option id="com.nokia.cdt.build.toolChain.S60_28.gcc98.GlobalOptions.systemIncludePaths.thumbUrelPdll.2010249400" name="System Include Paths" superClass="com.nokia.cdt.build.toolChain.S60_28.gcc98.GlobalOptions.systemIncludePaths.thumbUrelPdll"/>
+<option id="com.symbian.cdt.sdk.81a.build.gcc98.pdll.targetType.279263762" name="TargetType" superClass="com.symbian.cdt.sdk.81a.build.gcc98.pdll.targetType" value="app" valueType="enumerated"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll.1680280836" name="UID2" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll" value="0x100039CE" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll.384885495" name="UID3" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll" value="0x01ABB294" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll.375692565" name="Vendor Id" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll" value="0x00000000" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths.1281991057" name="User Include Paths" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\data&quot;"/>
+</option>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath.2064381383" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+<tool id="com.nokia.sdk.S60_28.build.gcc98.compiler.thumbUrelPdll.141736143" name="GCC98 Complier" superClass="com.nokia.sdk.S60_28.build.gcc98.compiler.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.linker.first.thumbUrelPdll.1052651105" name="GCC98 Linker first stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.first.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.thumbUrelPdll.1879664145" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.thumbUrelPdll" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${EPOCROOT}epoc32\release\thumb\urel\edll.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${EPOCROOT}epoc32\release\thumb\urel\edllstub.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${EPOCROOT}epoc32\release\thumb\urel\egcc.lib&quot;"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\euser.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\apparc.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\cone.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\eikcore.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\avkon.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\thumb\urel\eikcoctl.lib"/>
+</option>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.linker.second.thumbUrelPdll.1829607791" name="GCC98 Linker second stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.second.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.archiver.Default.492431697" name="GCC98 Archiver" superClass="com.symbian.cdt.build.tool.gcc98.archiver.Default"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default.1516268699" name="Def File Creator" superClass="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.petran.thumbUrelPdll.622190216" name="Petran" superClass="com.symbian.cdt.build.tool.gcc98.petran.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.rcomp.thumbUrelPdll.2054831969" name="Resource Compiler" superClass="com.symbian.cdt.build.tool.gcc98.rcomp.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath.2021559435" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.mbm.thumbUrelPdll.1733074905" name="MBM Compiler" superClass="com.symbian.cdt.build.tool.gcc98.mbm.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath.1261101068" superClass="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.tool.gcc98.aif.thumbUrelPdll.383933447" name="AIF Compiler" superClass="com.symbian.cdt.build.tool.gcc98.aif.thumbUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath.132693254" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.thumbUrelPdll.1850496613" name="GCC98 Dlltool import library generation stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.thumbUrelPdll.2080636750" name="GCC98 Dlltool first stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.thumbUrelPdll.1376012536" name="GCC98 Dlltool second stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.thumbUrelPdll.1321217396" name="GCC98 Dlltool third stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.thumbUrelPdll"/>
+<tool id="com.symbian.cdt.build.tool.gcc98.makesis.thumbUrelPdll.1197668370" name="MakeSis (Installation File Generator)" superClass="com.symbian.cdt.build.tool.gcc98.makesis.thumbUrelPdll"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="app" artifactName="FlashLite21Launcher" cleanCommand="del /s/q" description="" id="S60_2nd_FP3_com.symbian.cdt.build.projectType.pdll_armi.urel_S60_2nd_FP3.470538255" name="S60 2.8 Phone (ARMI) Release" parent="S60_2nd_FP3_com.symbian.cdt.build.projectType.pdll_armi.urel_S60_2nd_FP3">
+<toolChain id="com.nokia.sdk.S60_28.build.toolChain.gcc98.armiUrelPdll.465767368" name="GCC98 Polymorphic DLL Defaults" superClass="com.nokia.sdk.S60_28.build.toolChain.gcc98.armiUrelPdll">
+<option id="com.nokia.cdt.build.toolChain.S60_28.gcc98.GlobalOptions.systemIncludePaths.armiUrelPdll.147619550" name="System Include Paths" superClass="com.nokia.cdt.build.toolChain.S60_28.gcc98.GlobalOptions.systemIncludePaths.armiUrelPdll"/>
+<option id="com.symbian.cdt.sdk.81a.build.gcc98.pdll.targetType.1932390584" name="TargetType" superClass="com.symbian.cdt.sdk.81a.build.gcc98.pdll.targetType" value="com.symbian.cdt.sdk.81a.build.gcc98.polymorphicDllUrel.app" valueType="enumerated"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll.1477186342" name="UID2" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid2.pdll" value="0x100039CE" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll.2141774866" name="UID3" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.uid3.pdll" value="0x01ABB294" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll.1962814144" name="Vendor Id" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.vendorid.pdll" value="0x00000000" valueType="string"/>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths.1294616397" name="User Include Paths" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.userIncludePaths" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\inc&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}\data&quot;"/>
+</option>
+<option id="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath.768578379" superClass="com.symbian.cdt.build.toolChain.gcc98.GlobalOptions.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+<tool command="gcc.exe" id="com.nokia.sdk.S60_28.build.gcc98.compiler.armiUrelPdll.1995343952" name="GCC98 Complier" superClass="com.nokia.sdk.S60_28.build.gcc98.compiler.armiUrelPdll"/>
+<tool command="ld.exe" id="com.symbian.cdt.build.tool.gcc98.linker.first.armiUrelPdll.1169319227" name="GCC98 Linker first stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.first.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.armiUrelPdll.1377074582" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.linker.first.libraries.libraries.armiUrelPdll" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${EPOCROOT}epoc32\release\armi\urel\edll.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${EPOCROOT}epoc32\release\armi\urel\edllstub.lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;&quot;${EPOCROOT}epoc32\release\armi\urel\apgrfx.lib&quot;&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${EPOCROOT}epoc32\release\armi\urel\egcc.lib&quot;"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\euser.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\apparc.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\cone.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\eikcore.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\avkon.lib"/>
+<listOptionValue builtIn="false" value="${EPOCROOT}epoc32\release\armi\urel\eikcoctl.lib"/>
+</option>
+</tool>
+<tool command="ld.exe" id="com.symbian.cdt.build.tool.gcc98.linker.second.armiUrelPdll.2060666521" name="GCC98 Linker second stage" superClass="com.symbian.cdt.build.tool.gcc98.linker.second.armiUrelPdll"/>
+<tool command="ar.exe" id="com.symbian.cdt.build.tool.gcc98.archiver.Default.311429268" name="GCC98 Archiver" superClass="com.symbian.cdt.build.tool.gcc98.archiver.Default"/>
+<tool command="perl.exe -S makedef.pl" id="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default.1028861031" name="Def File Creator" superClass="com.symbian.cdt.build.buildDefinitions.makedef.gcc98.default"/>
+<tool command="petran.exe" id="com.symbian.cdt.build.tool.gcc98.petran.armiUrelPdll.56139530" name="Petran" superClass="com.symbian.cdt.build.tool.gcc98.petran.armiUrelPdll"/>
+<tool command="perl.exe -S epocrc.pl" id="com.symbian.cdt.build.tool.gcc98.rcomp.armiUrelPdll.1175593771" name="Resource Compiler" superClass="com.symbian.cdt.build.tool.gcc98.rcomp.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath.613158304" superClass="com.symbian.cdt.build.buildDefinitions.rcomp.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool command="perl -S epocmbmdef.pl" id="com.symbian.cdt.build.tool.gcc98.mbm.armiUrelPdll.139464340" name="MBM Compiler" superClass="com.symbian.cdt.build.tool.gcc98.mbm.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath.1551445073" superClass="com.symbian.cdt.build.buildDefinitions.mbm.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool command="perl -S epocaifdef.pl" id="com.symbian.cdt.build.tool.gcc98.aif.armiUrelPdll.1800343010" name="AIF Compiler" superClass="com.symbian.cdt.build.tool.gcc98.aif.armiUrelPdll">
+<option id="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath.126721226" superClass="com.symbian.cdt.build.buildDefinitions.aif.general.targetPath" value="system\apps\FlashLite21Launcher" valueType="string"/>
+</tool>
+<tool command="dlltool.exe" id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.armiUrelPdll.1887005297" name="GCC98 Dlltool import library generation stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.nullth.armiUrelPdll"/>
+<tool command="dlltool.exe" id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.armiUrelPdll.281718804" name="GCC98 Dlltool first stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.first.armiUrelPdll"/>
+<tool command="dlltool.exe" id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.armiUrelPdll.1483462456" name="GCC98 Dlltool second stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.second.armiUrelPdll"/>
+<tool command="dlltool.exe" id="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.armiUrelPdll.693663120" name="GCC98 Dlltool third stage" superClass="com.symbian.cdt.build.buildDefinitions.gcc98.dlltool.third.armiUrelPdll"/>
+<tool command="makesis.exe" id="com.symbian.cdt.build.tool.gcc98.makesis.armiUrelPdll.293115511" name="MakeSis (Installation File Generator)" superClass="com.symbian.cdt.build.tool.gcc98.makesis.armiUrelPdll"/>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

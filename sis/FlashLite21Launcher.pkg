@@ -1,0 +1,24 @@
+;
+; Installation file for FlashLite21Launcher application
+;
+;Languages
+&EN
+;
+; UID is the app's UID
+;
+#{"FlashLite21Launcher"},(0x01ABB294),1,0,0
+;
+;Supports Series 60 v 2.0
+;This line indicates that this installation is for the Series 60 platform v2.0
+;This line must appear _exactly_ as shown below in the sis file
+;If this line is missing or incorrect, the sis file will not be able
+;to be installed on Series 60 v2.0 platforms
+(0x101F7960), 0, 0, 0, {"Series60ProductID"} 
+;
+; Four files to install
+; Symbols set up for the source location are Carbide.c++ specific symbols
+"$(EPOCROOT)epoc32\release\$(PLATFORM)\$(TARGET)\FlashLite21Launcher.app"		  -"!:\system\apps\FlashLite21Launcher\FlashLite21Launcher.app"
+"$(EPOCROOT)epoc32\data\z\system\apps\FlashLite21Launcher\FlashLite21Launcher.rsc"         -"!:\system\apps\FlashLite21Launcher\FlashLite21Launcher.rsc"
+"$(EPOCROOT)epoc32\data\z\system\apps\FlashLite21Launcher\FlashLite21Launcher_caption.rsc" -"!:\system\apps\FlashLite21Launcher\FlashLite21Launcher_caption.rsc"
+"$(EPOCROOT)epoc32\data\z\system\apps\FlashLite21Launcher\FlashLite21Launcher.aif"         -"!:\system\apps\FlashLite21Launcher\FlashLite21Launcher.aif"
+
